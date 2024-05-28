@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title> 
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- main container will be everything on the page -->
+        <div class="both-headers">
+        <!-- both headers will be everything located in the colored box at the top of the page -->  
+            <div class="header-1">
+                <img src="./Images/heart-light.png" alt="heart" width="100">
+                <h1><span>Katie's Pet Shelter</span></h1>
+                <p>Find a Pet</p>
+                <p>About</p>
+                <button class="donate" onclick="hide(this)">Donate</button>
+            </div>
+            <div class="header-2">
+            <div class="left-box">
+                <div class="text-above">
+                    <p>I'm looking for a...</p>
+                </div>
+                <div class="selector">
+                    <img src="./Images/paw-light.png" alt="paw-print">
+                    <select id="typeOfPet-dropdown" onchange="petChoice(this.value)">
+                        <option value="AnyPet">Any Pet</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Horse">Horse</option>
+                        <option value="Chicken">Chicken</option>
+                        <option value="Snake">Snake</option>
+                    </select>
+                    <p id="demo"></p>
+                </div>
+            </div>
+            <div class="center-box">
+                <div class="text-above">
+                    <p>in or near...</p>
+                </div>
+                <div class="locationSelector">
+                    <img src="./Images/pin-light.png" alt="marker">
+                    <input type="text" name="location" placeholder="City or Zip Code">
+                </div>
+            </div>
+            <div class="right-box">
+                <p>Find your new best friend</p>
+            </div>
+            </div>
+        </div>
+        <!-- content is everything below the header that includes the critters for adoption -->
+        <div class="content">
+            <!-- this is Pepper's box -->
+            <div class="pepper">
+                <div class="pepperImgDesc">
+                    <div class="pepperImage">
+                        <img src="./Images/pepper.jpg" alt="pepperPhoto">
+                    </div>
+                    <div class="pepperDescription">
+                        <h2>Pepper</h2>
+                        <p>Pepper is a slightly shy grey tabby, but she</p> 
+                        <p>really loves showing her human affection.</p>
+                    </div>
+                </div>
+                <div class="pepperLikeButton">
+                    <p id="count">petting(s) for Pepper!</p>
+                    <button class="like-button" onclick="pepper_add1()">Pet Pepper</button>
+                </div>
+            </div>
+            <!-- this is Bruce's box -->
+            <div class="bruce">
+                <div class="bruceImgDesc">
+                    <div class="bruceImage">
+                        <img src="./Images/bruce.jpg" alt="brucePhoto">
+                    </div>
+                    <div class="bruceDescription">
+                        <h2>Bruce</h2>
+                        <p>Bruce is a loyal companion. He loves</p>
+                        <p>long walks and cold weather.</p>
+                    </div>
+                </div>
+                <div class="bruceLikeButton">
+                    <p id="count2">petting(s) for Bruce!</p>
+                    <button class="like-button" onclick="bruce_add1()">Pet Bruce</button>
+                </div>
+            </div>
+            <!-- this is Oscar's box -->
+            <div class="oscar">
+                <div class="oscarImgDesc">
+                    <div class="oscarImage">
+                        <img src="./Images/oscar.jpg" alt="oscarPhoto">
+                    </div>
+                    <div class="oscarDescription">
+                        <h2>Oscar</h2>
+                        <p>Oscar is bright, energetic and friendly.</p>
+                        <p>He is looking for a good home.</p>
+                    </div>
+                </div>
+                <div class="oscarLikeButton">
+                    <p id="count3">petting(s) for Oscar!</p>
+                    <button class="like-button" onclick="oscar_add1()">Pet Oscar</button>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <script src="./script.js"></script>
+</body>
+</html>

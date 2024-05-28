@@ -1,0 +1,12 @@
+Stack: Python
+GitHub Repo Link: https://github.com/dnorton95/group_project 
+Project Name: Holler
+Project Description: Similar to Yelp, this website will allow users to create an account and leave ratings and reviews of restaurants from a pre-populated list. 
+MVP Features: In line with the required MVP features, this website will consist of 5 pages: a landing, login and register, dashboard, restaurant details, and an edit review and rating page. Each page will be interlinked with the dashboard and restaurant details pages updating dynamically with user inputs. The dashboard will include the average rating of each restaurant while the details pages for each restaurant will allow users to both leave a rating and a comment for that restaurant. The menu page will display a gallery of menus from all of the restaurants.
+Bonus Features: Our main bonus feature will be the many-to-many relationship between the ratings/reviews and the users/restaurants. We also plan to include Bootstrap for our CSS framework and establish a through line of UX design that is carried from page to page.
+Roles: Each person will be doing aspects of both frontend and backend work to build their own page within the site.
+	Ashlyn — dashboard page, proposal and wireframe
+	Christian — landing page
+	Daniel — restaurant details page
+	Ethan — login and registration
+	Katie — edit review and rating page, database creation
