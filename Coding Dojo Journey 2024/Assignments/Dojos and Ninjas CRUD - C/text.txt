@@ -1,0 +1,5 @@
+I've been trying to get the ninja edit to work, 
+but kept running into method not allowed, 
+then I realized I didn't have to do that for this assignment, 
+by that time (now) I've run out of time to make it look all 
+pretty, sorry
