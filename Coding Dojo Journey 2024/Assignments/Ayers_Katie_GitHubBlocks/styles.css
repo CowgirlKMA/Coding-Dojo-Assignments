@@ -1,0 +1,42 @@
+.container{
+    margin: 0 auto;
+    width: 800px;
+    height: 850px;
+    background-color: rgb(108, 175, 175);
+    border-top: 5px solid black;
+}
+h1{
+    text-align: center;
+}
+.top-row{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.middle-row{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-row{
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly; 
+} 
+img{
+    height: 200px;
+    border: 4px solid black;
+}   
+h2{
+    text-align: center;
+}
+.GitHub{
+    color: blueviolet ;
+    text-decoration: underline;
+}

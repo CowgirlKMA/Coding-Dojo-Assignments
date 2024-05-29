@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    font-family: cursive;
+}
+/* navigation bar */
+/* .nav-main{
+    display: flex;
+} */
+.nav{
+    justify-content: center;
+    background-color: black;
+    /* width: 1200px; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: xx-large;
+}
+.nav-left{
+    color: azure;
+    padding-left: 120px;
+}
+a{
+    color: darkgray;
+    margin: 10px;
+    text-decoration: underline;
+} 
+/* .nav-right{
+    padding-right: 20px;
+} */
+.btn{
+    color: azure;
+    background-color:darkcyan;
+    box-shadow: grey 5px 5px;
+    margin-right: 100px;
+    font-size: xx-large;
+
+}
+.both-columns{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+/* column 1 contains profile box and education box */
+.column-1{
+    margin-right: 40px;
+}
+.column-2{
+
+}
+.profile-box{
+    width: 700px;
+    height: 500px;
+    border: solid 5px gray;
+    line-height: 2;
+    font-size: larger;
+}
+.upper-row{
+    height: 100px;
+    background-color: darkcyan;
+}
+.content{
+    padding: 0px 20px 20px;
+}
+.content-2{
+    padding: 20px 40px;
+    line-height: 2;
+    font-size: larger;
+}
+.photo{
+    width: 160px;
+    margin-top: -60px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+}
+.icon-1, .icon-2{
+    width: 20px;
+}
+.education-box{
+    width: 700px;
+    height: 250px;
+    border: 5px solid gray;
+    margin-top: 40px;
+
+}
+.header-1{
+    background-color: darkslategray;
+    color: azure;
+    height: 50px;
+    padding-left:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-2{
+    background-color: darkslategray;
+    color: azure;
+    height: 50px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    margin-bottom: 8px;
+}
+.num{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: black;
+    align-items:;
+    padding-left: 15px;
+    margin-right: 10px;
+
+}
+.num-1{
+    border: 2px solid black;
+    border-radius: 35%;
+    background-color: lightgray;
+    color: black;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+.content-3{
+    /* display: flex; */
+}
+
+.todd, .phil{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: slategray;
+    width: 75px;
+    margin-left: 20px;
+}
+.connection-requests-box{
+    width: 470px;
+    height: 275px;
+    margin: 0 auto;
+    border: 5px solid gray;
+    font-size: larger;
+}
+.your-connections-box{
+    width: 470px;
+    height: 475px;
+    margin: 0 auto;
+    border: 5px solid gray;
+    margin-top: 40px;
+    font-size: larger;
+}
+.footer{
+    height: 40px;
+    margin-top: 5px;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+

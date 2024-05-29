@@ -1,0 +1,29 @@
+.nav{
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    font-family: cursive;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: azure;
+    margin-left: 25px;   
+}
+.nav-links{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px;
+}
+a{
+    color: azure;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color:aqua;
+    box-shadow: black 5px 5px;
+}

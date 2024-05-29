@@ -1,0 +1,32 @@
+.search  {
+    color: aqua;
+    background-color: rgb(197, 207, 207);
+    border-color: aqua;
+    text-align: center;
+    border-radius: 12px;
+    padding: 6px 28px;
+    margin-bottom: 5px;
+    border-style: solid;
+}
+.plus  {
+    border-radius: 50%;
+    background-color: aqua;
+    color: aliceblue;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-style: none;
+
+}
+.create {
+    color: aliceblue;
+    background-color: blue;
+    text-align: center;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
+    padding: 9px 30px; 
+    border-style: solid;
+
+
+ 
+
+}
