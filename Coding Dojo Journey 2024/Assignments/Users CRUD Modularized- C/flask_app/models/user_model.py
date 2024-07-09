@@ -63,7 +63,7 @@ class User:
 
     @classmethod
     def update(cls, form_data):
-    #updates the pet from the form that was submitted after editing
+    #updates the user from the form that was submitted after editing
         query = """
         UPDATE users
         SET

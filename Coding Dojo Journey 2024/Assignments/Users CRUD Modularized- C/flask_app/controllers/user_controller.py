@@ -47,6 +47,8 @@ def edit_user(user_id):
 @app.post("/users/update")
 def update_user():
 #this route processes the edit 
+    user_id = request.form["user_id"]
+    
     User.update(request.form) #passes from the from into the user.update
     return redirect("/users")
     
